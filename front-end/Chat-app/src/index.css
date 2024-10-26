@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/* dark mode looking scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #555;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #121212;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #242424;
+}
+
+/* Define the keyframes for the shake animation */
+@keyframes shake {
+	0% { transform: translateX(0); }
+	10% { transform: translateX(-10px); }
+	20% { transform: translateX(10px); }
+	30% { transform: translateX(-10px); }
+	40% { transform: translateX(10px); }
+	50% { transform: translateX(-10px); }
+	60% { transform: translateX(10px); }
+	70% { transform: translateX(-10px); }
+	80% { transform: translateX(10px); }
+	90% { transform: translateX(-10px); }
+	100% { transform: translateX(0); }
+	}
+
+  /* Apply the shake animation to an element with vendor prefixes */
+	.shake {
+	animation: shake 0.5s;
+	/* Vendor prefixes for better compatibility */
+	-webkit-animation: shake 0.5s; /* Safari, Chrome */
+	-moz-animation: shake 0.5s; /* Firefox */
+	-ms-animation: shake 0.5s; /* Internet Explorer */
+	-o-animation: shake 0.5s; /* Opera */
+	}
+	
