@@ -149,7 +149,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 **Muhammad Qaiser**
-📧 [YourEmail@example.com](mailto:qaiserakram7777@gmail.com)
+📧 [qaiserakram7777@gmail.com](mailto:qaiserakram7777@gmail.com)
 🔗 GitHub: [@muhammadqaiser7777](https://github.com/muhammadqaiser7777)
 
 ---
